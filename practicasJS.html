@@ -17,8 +17,8 @@
             <a href="./index.html#contacto">Contacto</a>
         </nav>
     </div>
-    <main class="indiceMasa sombra">
-
+<main>
+    <section class="proyecto sombra">    
         <div class="topMenu">
             <img src="./img/iconoMasaCorporal.png" alt="IndiceMasa">
             <h1 class="nombre"> Calculo del indice de <span style="color: crimson;">masa corporal</span></h1>
@@ -63,7 +63,55 @@
         <div class="calcularIMC">
             <a class="botonIMC" onclick="calcularIMC()">Calcular</a>
         </div>
-    </main>
+    </section>
+    
+    <section class="proyecto sombra">    
+        <div class="topMenu">
+            <img src="./img/iconoMasaCorporal.png" alt="IndiceMasa">
+            <h1 class="nombre"> Calculo del indice de <span style="color: crimson;">masa corporal</span></h1>
+        </div>
+    
+        <div class="Calculo">
+            <section class="Datos">
+                <h2 class="DatosEntrada">Datos de entrada</h2>
+                <div>
+                    <fieldset class="variablesEntrada">
+                        <legend class="VarEntrada">Variables de entrada</legend>
+                        <div class="datoMasaCorporal">
+                            <label for="">Estatura</label>
+                            <input placeholder="mts (ejemplo: 1.80)" type="number" class="input-data"id="estatura">
+                        </div>
+                        <div class="datoMasaCorporal">
+                            <label for="">Peso</label>
+                            <input placeholder="kg (ejemplo: 56)" type="number" class="input-data"id="peso">
+                        </div>
+                    </fieldset>
+                </div>
+            </section>
+        </div>
+        <div class="salida">
+            <section class="Datos">
+                <h2 class="DatosEntrada">Datos de salida</h2>
+                <div>
+                    <fieldset class="variablesEntrada">
+                        <legend class="VarEntrada">Variables de salida</legend>
+                        <div class="datoMasaCorporal">
+                            <label for="">IMC</label>
+                            <input placeholder="kg/mts²" type="text" disabled class="input-data"id="IMC">
+                        </div>
+                        <div class="datoMasaCorporal">
+                            <label for="">Clasificación</label>
+                            <input placeholder="de acuerdo al IMC" disabled class="input-data"id="clasificacion">
+                        </div>
+                    </fieldset>
+                </div>
+            </section>
+        </div>
+        <div class="calcularIMC">
+            <a class="botonIMC" onclick="calcularIMC()">Calcular</a>
+        </div>
+    </section>
+</main>
 
     <footer class="pieDePagina">
         <section class="SocialMedia">
