@@ -1,0 +1,360 @@
+:root{
+    --rancio: #900C3F;
+    --naranja: #F94C10;
+    --negro: black;
+    --white: white;
+    --mint: #40F8FF;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html{
+    font-size: 62.5%;
+    
+}
+h1,h2,h3{
+    text-align: center;
+}
+
+.head-1{
+    font-size: 3.5rem;
+    color: black;
+}
+.head-1 span{
+    font-size: 1.75rem;
+    color: cadetblue;
+}
+
+.nav-fondo{
+    background-color: black;
+}
+
+.menu{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 17%;
+    background-color:  black;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu a {
+    font-size: 1.75rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: bold;
+    color: var(--blanco);
+    width: 15rem;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+.menu :hover{
+    background-color: darkgrey;
+    color:white;
+}
+.head2{
+    font-size: 2.50rem;
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.fondo-color {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;   
+    align-items: center; 
+  }
+.fondo-ubicacion{
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    height: auto;
+    background-position-y: center;
+}
+.ubicacion p {
+    display: inline;
+    color: var(--white);
+    font-size: 1.25rem;
+  }
+.ubi{
+    font-style: italic;
+    text-decoration: none;
+}
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.75rem 1.75rem ;
+    margin: 2.3rem 0;
+    border-radius: 1.75rem;
+}
+.button:hover{
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+.icon{
+    stroke: white;
+}
+.contenido-principal{
+    background-color: whitesmoke;
+    margin:  0rem 15%;
+    height: 70rem;
+}
+.sombra{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(31,24,31,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(31,24,31,1);
+    box-shadow: 10px 10px 5px 0px rgba(31,24,31,1);
+}
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1;
+}
+.terminal-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 0 42%;
+}
+.terminal-icon:hover{
+    background-color: black;
+    color: white;
+}
+.texto-servicio{
+    text-align: center;
+    font-size: 1.65rem;
+}
+.head-3{
+    font-size: 1.50rem;
+    font-family: 'Inter', sans-serif;
+}
+.head-2-contacto{
+    font-size: 2em;
+    
+}
+legend{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+   background-color: black;
+   border-radius: 1.5rem;
+}
+.formulario{
+    background-color: whitesmoke;
+    width: 80rem;
+    margin: 1rem auto;
+    padding: 1.5rem 2.5rem;
+}
+fieldset{
+    border: solid black;
+    border-radius: 1.5rem;
+}
+.contenedor-campo{
+    resize: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto 10rem;
+    column-gap: 1rem;
+}
+#negro, textarea{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.campo:nth-child(3),
+.campo:nth-child(4){
+    grid-column: 1 / 3;
+}
+textarea{
+    resize: none;
+    height: 90%;
+}
+label{
+    font-size: 1.5em;
+}
+.below-button{
+    display: flex;
+    justify-content: center;
+}
+.button-2{
+    background-color: #D8D9DA;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    display: inline;
+    width: auto;
+    height: auto;
+    font-size: 1.75em;
+    border: none;
+}
+
+.button-2:hover{
+    background-color: black;
+    color:white;
+    opacity: 90%;
+    border-radius: 1rem;
+}
+.pieDePagina{
+    text-align: center;
+}
+.SocialMedia{
+    background-color: #09090b;
+    display: flex;
+    margin-top: 5%;
+    color: whitesmoke;
+    padding: 2em;
+    justify-content: center;
+}
+.linea{
+    border-left: 1px solid white;
+    height: 6em;
+    padding: 0% 1em;
+}
+.footMenu{
+    padding: 2em;
+}
+.footMenu a{
+    font-size: 1.4em;
+    text-decoration: none;
+    margin: 0 2em;
+    color: whitesmoke;
+    position: relative;
+}
+.footMenu a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke; 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.6s ease;
+}
+.footMenu a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.GitHub{
+    color: white;
+    align-self: center;
+}
+.GitHub:hover{
+    cursor: pointer;
+}
+.Twitter{
+    align-self: center;
+}
+.Twitter:hover{
+    cursor: pointer;
+}
+.copyrightSection{
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.copyright{
+    font-size: 0.80rem;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.indiceMasa{
+    background-color: whitesmoke;
+    margin:  10rem 15%;
+    height: 60rem;
+
+}
+.topMenu{
+    background-color: #205295;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 10em;
+    align-items: center;
+}
+.topMenu h1{
+    font-size: 2.75rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: bold;
+    color: var(--blanco);
+    width: 25rem;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+.topMenu img{
+    width: auto;
+    height: 70%;
+    margin-right: 5rem;
+}
+.DatosEntrada{
+    font-size: 1.50rem;
+    font-family: 'Inter', sans-serif;
+}
+.variablesEntrada{
+    color: white;
+    margin: 1.5rem auto;
+    width: 80rem;
+    background-color: #1D267D;
+    padding: 1.5rem 2.75rem;
+}
+fieldset{
+    border: none;
+}
+.VarEntrada{
+    background-color: #0C134F;
+    border-radius: 1.2rem;
+    font-size: 1.20rem;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0.50rem;
+}
+.input-data{
+    width: 100%;
+    height: 2.25rem;
+    font-size: 1.75rem;
+}
+
+.variablesEntrada{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.calcularIMC{
+    width: 80rem;
+    margin: 3rem auto;
+    text-align: right;
+}
+.botonIMC{
+    background-color: #337CCF;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.25rem 3.75rem;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    font-family: 'Inter', sans-serif;
+}
+.botonIMC:hover{
+    background-color: #952323;
+    cursor: pointer;
+}
