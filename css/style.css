@@ -358,3 +358,32 @@ fieldset{
     background-color: #952323;
     cursor: pointer;
 }
+#varTemperatura{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.convertirTemperatura{
+    width: 80rem;
+    margin: 3rem auto;
+    text-align: right;
+}
+.botonTemperatura{
+    background-color: #337CCF;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.25rem 3.75rem;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    font-family: 'Inter', sans-serif;
+}
+.botonTemperatura:hover{
+    background-color: #952323;
+    cursor: pointer;
+}
+.salidaTemperatura{
+    display: flex;
+    background-color: red;
+    justify-self: center;
+    padding: 1rem;
+}
