@@ -381,9 +381,12 @@ fieldset{
     background-color: #952323;
     cursor: pointer;
 }
-.salidaTemperatura{
-    display: flex;
-    background-color: red;
-    justify-self: center;
+.salidaTemperatura {
     padding: 1rem;
+    grid-column: 2 / span 1;
+    background-color: #0C134F;
+    border-radius: 1.25rem;
+}
+#temperaturaConvertida{
+    text-align: center;
 }
