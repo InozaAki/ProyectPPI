@@ -5,7 +5,9 @@
     --white: white;
     --mint: #40F8FF;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 html {
     box-sizing: border-box;
   }
@@ -28,7 +30,15 @@ h1,h2,h3{
     font-size: 1.75rem;
     color: cadetblue;
 }
-
+.fondo-principal{
+    background-image: url(../img/trys.png);
+    background-size: cover;
+    height: auto;
+    background-position-y: center;
+}
+.fondo-color2{
+    background-color: rgba(0, 0, 0, 0.7);
+}
 .nav-fondo{
     background-color: black;
 }
@@ -41,6 +51,7 @@ h1,h2,h3{
     background-color:  black;
     color: whitesmoke;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5%;
 }
 .menu a {
     font-size: 1.75rem;
@@ -63,18 +74,12 @@ h1,h2,h3{
     font-style: italic;
 }
 .fondo-color {
-    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
     align-content: space-around;   
-    align-items: center; 
+    align-items: center;
+    margin-bottom: 5rem; 
   }
-.fondo-ubicacion{
-    background-image: url(../img/fondo2.jpg);
-    background-size: cover;
-    height: auto;
-    background-position-y: center;
-}
 .ubicacion p {
     display: inline;
     color: var(--white);
@@ -96,21 +101,26 @@ h1,h2,h3{
 }
 .button:hover{
     color:black;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border-color: white;
 }
 .icon{
     stroke: white;
 }
-.contenido-principal{
-    background-color: whitesmoke;
-    margin:  0rem 15%;
-    height: 70rem;
+.head-2{
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: lighter;
 }
-.sombra{
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(31,24,31,1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(31,24,31,1);
-    box-shadow: 10px 10px 5px 0px rgba(31,24,31,1);
+.contenido-principal{
+    background-color: rgba(49, 26, 78, 0.8);
+    margin:  0rem 15%;
+    height: 75rem;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    border-radius: 1rem;
 }
 .servicios{
     display: grid;
@@ -121,40 +131,51 @@ h1,h2,h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gainsboro;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     margin: 0 42%;
 }
 .terminal-icon:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 .texto-servicio{
     text-align: center;
     font-size: 1.65rem;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
 }
 .head-3{
-    font-size: 1.50rem;
+    font-size: 1.70rem;
+    color: white;
+    font-weight: lighter;
     font-family: 'Inter', sans-serif;
 }
 .head-2-contacto{
     font-size: 2em;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
     
 }
 legend{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2em;
-    font-weight: bold;
-   background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
    border-radius: 1.5rem;
+   margin-bottom: 2rem;
 }
 .formulario{
-    background-color: whitesmoke;
+    background-color: rgba(30, 1, 44, 0.8);
     width: 80rem;
     margin: 1rem auto;
-    padding: 1.5rem 2.5rem;
+    padding: 1.25rem 2.5rem;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
 }
 fieldset{
     border: solid black;
@@ -193,10 +214,9 @@ label{
     border-radius: 1rem;
     margin-top: 2rem;
     display: inline;
-    width: auto;
-    height: auto;
     font-size: 1.75em;
     border: none;
+    padding: 0.5rem;
 }
 
 .button-2:hover{
@@ -209,9 +229,8 @@ label{
     text-align: center;
 }
 .SocialMedia{
-    background-color: #09090b;
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin-top: 5%;
     color: whitesmoke;
     padding: 2em;
     justify-content: center;
@@ -264,7 +283,7 @@ label{
     display: flex;
     justify-content: space-around;
     color: whitesmoke;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .copyright{
