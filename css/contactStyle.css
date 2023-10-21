@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+}
+.return{
+    display: flex;
+    background-color: rgba(44, 39, 84, 0.8);
+    justify-content: center;
+}
+.return a{
+    color:white;
+    margin-right: 5rem;
+    align-self: center;
+    cursor: pointer;
+}
+.return a:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+.background{
+    background-image: url(../img/waos.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.backgroundColor{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.head-1{
+    flex-grow: 0.7;
+    color: white;
+}
+.top{
+    color: white;
+    background-color: rgba(56, 48, 117, 0.8);
+    margin: 0rem 15%;
+    border-radius: 1.25rem;
+    font-size: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: lighter;
+}
+main{
+    margin: 0rem 25%;
+    font-family: 'DM Sans', sans-serif;
+}
+.datos{
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    background-color: rgba(56, 48, 117, 0.8);
+    justify-content: center;
+}
+.direccion{
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+.telefono{
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+.correo{
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+.mapa{
+    width: 100%;
+    opacity: 0.9;
+}
