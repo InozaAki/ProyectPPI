@@ -103,14 +103,14 @@ h1,h2,h3{
     margin: 2.3rem 0;
 }
 .button::after, .button::before{
-  content: '';
+  content: ' ';
   display: block;
   position: absolute;
   width: 10%;
   height: 40%;
   border: 2px solid;
-  transition: all 0.8s ease;
-  border-radius: 1px;
+  transition: all 0.6s ease;
+  border-radius: 2px;
 }
 .button::after{
 bottom: 0;
@@ -147,7 +147,7 @@ border-left-color: white;
 .contenido-principal{
     background-color: rgba(76, 58, 98, 0.7);
     margin:  0rem 15%;
-    height: 75rem;
+    height: 80rem;
     margin-top: 4%;
     margin-bottom: 10%;
     border-radius: 1rem;
@@ -177,6 +177,7 @@ border-left-color: white;
     color: white;
     font-weight: lighter;
     font-family: 'Inter', sans-serif;
+    padding: 1rem;
 }
 .head-3{
     font-size: 1.70rem;

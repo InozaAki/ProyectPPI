@@ -42,6 +42,7 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 .datos{
+    background-color: rgba(56, 48, 117, 0.8);
     color: white;
     font-size: 2rem;
     display: grid;

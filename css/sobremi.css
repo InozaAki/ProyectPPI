@@ -137,9 +137,48 @@ progress::-webkit-progress-value { background: #75C2F6; }
     align-self: center;
     order: 5;
 }
+.cvMain{
+    font-family: 'DM Sans', sans-serif;
+}
 .summary{
+    display: flex;
     grid-area: 1 / 2 / 2 / 3;
+    align-items: center;
+}
+.summaryTitle{
+    color: white;
+    transform: rotate(-180deg);
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: #6499E9;
+    writing-mode: vertical-rl;
+    margin-left: 1rem;
+    height: 32rem;
+}
+.summaryText{
+    margin: 0 10%;
+    align-self: center;
+    font-size: 2rem;
+}
+.divisor{
+    width: 85%;
 }
 .experience{
+    display: flex;
     grid-area: 2 / 2 / 4 / 3;
+}
+.experienceTitle{
+    color: white;
+    transform: rotate(-180deg);
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: #6499E9;
+    writing-mode: vertical-rl;
+    margin-left: 1rem;
+    height: 65rem;
+}
+.experienceText{
+    margin: 0 10%;
+    align-self: center;
+    font-size: 2rem;
 }
