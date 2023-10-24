@@ -45,7 +45,6 @@ main{
     color: white;
     font-size: 2rem;
     display: grid;
-    background-color: rgba(56, 48, 117, 0.8);
     justify-content: center;
 }
 .direccion{
