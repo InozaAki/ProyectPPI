@@ -116,7 +116,7 @@
                 <section>
                     <h2 class="head-2-contacto">Contacto</h2>
                     <div class="formulario" id="contacto">
-                    <form action="">    
+                    <form action="./php/contactForm.php" method="post">    
                             <fieldset>
                                 <legend style="color: white; padding: 0.75em 1.5em;">
                                     Llena todos los campos y nos pondremos en contacto
@@ -126,25 +126,25 @@
                                         <label for="">
                                             Nombre:
                                         </label>
-                                        <input type="text" name="" id="negro">
+                                        <input required type="text" name="nombre" id="negro">
                                     </div>
                                     <div class="campo">
                                         <label for="">
                                             Teléfono:
                                         </label>
-                                        <input type="text" name="" id="negro">
+                                        <input required type="text" name="telefono" id="negro">
                                     </div>
                                     <div class="campo">
                                         <label for="">
                                             Correo:
                                         </label>
-                                        <input type="text" name="" id="negro">
+                                        <input placeholder="correo@correo" required type="email" name="correo" id="negro">
                                     </div>
                                     <div class="campo">
                                         <label for="">
                                             Mensaje:
                                         </label>
-                                        <textarea></textarea>
+                                        <textarea required name="mensaje"></textarea>
                                     </div>
                                 </div>
                                 <div class="below-button">
